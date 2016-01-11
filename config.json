@@ -1,0 +1,23 @@
+{
+  "project" : "byshare",
+  "less":"src/less/*.less",
+  "destCss":"build/css",
+  "js":{
+    "index":["src/js/index.js","src/js/base.js"],
+    "user":["src/js/user.js","src/js/base.js"]
+  },
+  "srcjs":"src/js",
+  "destjs":"build/js",
+  "localserver" : {
+    "host" : "localhost",
+    "port" : "8081"
+  },
+  "tinypngapi": "Tinypng API KEY",
+  "sftp" : {
+    "host" : "8.8.8.8",
+    "user" : "username",
+    "port" : "22",
+    "key" : "~/.ssh/sdfsfdsf",
+    "remotePath" :"/"
+  }
+}   
